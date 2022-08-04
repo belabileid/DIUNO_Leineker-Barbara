@@ -1,0 +1,43 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: $spacing-small;
+}
+.gallery{
+    display: grid;
+    margin: 5px;
+    padding: 3px;
+
+    &__img {
+        display: grid;
+        justify-content:flex-start;
+        size: 20%;
+    }
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-xsmall;
+    flex: 1 1 clamp(300px, 30%, 400px);
+    &__info{
+        display: flex;
+        flex-direction: column;
+        padding: $spacing-medium;
+    }
+    &__title{
+        font-family: $font-title;
+        font-size: $medium;
+        color: $primary;
+    }
+    &__subtitle{
+        margin-top: 0.6rem;
+        font-size: $base;
+        color: $text-color;
+    }
+    &__text{
+        margin-top: $spacing-xsmall;
+        font-size: $base;
+        color: $text-color;
+    }
+}

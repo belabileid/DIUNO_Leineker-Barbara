@@ -1,0 +1,25 @@
+// aqui va el import de las fuentes de letras @import url()//;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+html{
+    font-size: 62,5%;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul{
+    list-style-type: none;
+}
